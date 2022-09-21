@@ -1,0 +1,14 @@
+@import url(./__image/card__image.css);
+
+.card {
+    width: 100px;
+    height: 100px;
+}
+
+.card .card__image {
+    transition: 5s;
+}
+
+.card:hover .card__image {
+    transform: scale(2);
+}

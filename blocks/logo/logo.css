@@ -1,0 +1,17 @@
+@import url(./_place/logo_place_footer.css);
+@import url(./_place/logo_place_header.css);
+@import url(./_color/logo_color_blue.css);
+@import url(./_color/logo_color_yellow.css);
+
+.logo {
+    padding: 24px;
+    z-index: 1;
+    width: 100px;
+    transition: width 3s linear, opacity 10s ease;
+}
+
+.logo:hover {
+    width: 200px;
+    opacity: 0;
+}
+
